@@ -1,0 +1,116 @@
+/* 
+ * Hambacompare Marketing Website
+ * Responsive Styles
+ */
+
+/* ===== Mobile First Approach ===== */
+/* Base styles are already defined for mobile in styles.css */
+
+/* ===== Tablet (768px and up) ===== */
+@media (max-width: 767px) {
+  /* Header & Navigation */
+  .nav-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--color-background);
+    flex-direction: column;
+    padding: var(--spacing-md);
+    box-shadow: var(--shadow-md);
+  }
+  
+  .nav-list.active {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: var(--spacing-sm) 0;
+    margin-left: 0;
+  }
+  
+  .mobile-menu-toggle {
+    display: block;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .hero-title {
+    font-size: 2.25rem;
+  }
+  
+  /* Process Steps */
+  .process-steps {
+    flex-direction: column;
+  }
+  
+  .process-step {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .process-line {
+    display: none;
+  }
+  
+  /* Insurance Types */
+  .insurance-types {
+    gap: var(--spacing-md);
+  }
+  
+  .insurance-type {
+    min-width: 100px;
+  }
+}
+
+/* ===== Tablet (768px and up) ===== */
+@media (min-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-lg);
+  }
+  
+  h1 {
+    font-size: 2.75rem;
+  }
+  
+  .hero-title {
+    font-size: 2.75rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===== Desktop (1024px and up) ===== */
+@media (min-width: 1024px) {
+  .container {
+    padding: 0 var(--spacing-xl);
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+  }
+  
+  .features-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .process-steps {
+    margin: var(--spacing-xxl) 0;
+  }
+}
+
+/* ===== Large Desktop (1280px and up) ===== */
+@media (min-width: 1280px) {
+  .hero-title {
+    font-size: 4rem;
+  }
+}
