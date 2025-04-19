@@ -67,7 +67,7 @@ Based on the screenshots, we'll implement a consistent design system:
 - Primary CTA: "Get Free Quotes" button linking to the web app
 - Brief overview of Hambacompare's service
 - Key benefits section highlighting:
-  - Compare quotes without sharing personal details
+  - Compare quotes without sharing contact details
   - Wide range of South African insurance providers
   - Only get contacted by insurers you select
 - Insurance types offered (with icons from screenshots)
