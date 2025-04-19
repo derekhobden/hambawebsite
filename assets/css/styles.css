@@ -6,7 +6,7 @@
 /* ===== CSS Variables / Design System ===== */
 :root {
   /* Colors */
-  --color-primary: #E86642;
+  --color-primary: #FB5630;
   --color-secondary: #1A2A4A; /* Navy blue for text */
   --color-background: #FFFFFF;
   --color-background-alt: #F5F7FA;
@@ -252,7 +252,7 @@ ul, ol {
 }
 
 .btn-primary:hover {
-  background-color: #D55535;
+  background-color: #E04520;
   color: white;
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
@@ -395,7 +395,7 @@ ul, ol {
 .form-control:focus {
   outline: none;
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(232, 102, 66, 0.2);
+  box-shadow: 0 0 0 3px rgba(251, 86, 48, 0.2);
 }
 
 textarea.form-control {

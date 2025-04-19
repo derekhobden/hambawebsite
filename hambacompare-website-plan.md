@@ -33,7 +33,7 @@ hambawebsite-1/
 Based on the screenshots, we'll implement a consistent design system:
 
 ### Colors
-- Primary: Coral/Orange (#E86642)
+- Primary: Coral/Orange (#FB5630)
 - Secondary: Navy Blue (for text)
 - Background: White/Light Gray
 - Accent: Light Blue (for gradients)
@@ -165,8 +165,8 @@ graph TD
     A --> E[POPI Act]
     A --> F[Contact]
     A --> G[Web App]
-    
-    style A fill:#E86642,color:white
+
+    style A fill:#FB5630,color:white
     style G fill:#4285F4,color:white
 ```
 
@@ -177,32 +177,32 @@ graph TD
     A[Layout] --> B[Header]
     A --> C[Main Content]
     A --> D[Footer]
-    
+
     B --> B1[Logo]
     B --> B2[Navigation]
     B --> B3[CTA Button]
-    
+
     C --> C1[Hero Section]
     C --> C2[Content Sections]
     C --> C3[Forms]
-    
+
     C1 --> C1a[Headline]
     C1 --> C1b[Subheadline]
     C1 --> C1c[Primary CTA]
-    
+
     C2 --> C2a[Feature Cards]
     C2 --> C2b[Process Steps]
     C2 --> C2c[Testimonials]
-    
+
     C3 --> C3a[Input Fields]
     C3 --> C3b[Validation]
     C3 --> C3c[Submit Button]
-    
+
     D --> D1[Links]
     D --> D2[Social Media]
     D --> D3[Copyright]
-    
-    style A fill:#E86642,color:white
+
+    style A fill:#FB5630,color:white
     style B fill:#6082BB,color:white
     style C fill:#6082BB,color:white
     style D fill:#6082BB,color:white
