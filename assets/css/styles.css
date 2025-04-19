@@ -450,7 +450,7 @@ textarea.form-control {
 }
 
 .footer-link a:hover {
-  color: white;
+  color: var(--color-primary);
 }
 
 .social-links {
@@ -462,6 +462,11 @@ textarea.form-control {
 .social-link {
   color: white;
   font-size: 1.25rem;
+  transition: color var(--transition-fast);
+}
+
+.social-link:hover {
+  color: var(--color-primary);
 }
 
 .footer-bottom {
