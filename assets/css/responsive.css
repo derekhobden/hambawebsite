@@ -9,6 +9,14 @@
 /* ===== Tablet (768px and up) ===== */
 @media (max-width: 767px) {
   /* Header & Navigation */
+  .header {
+    padding: var(--spacing-sm) 0;
+  }
+  
+  .logo {
+    font-size: 1.25rem;
+  }
+  
   .nav-list {
     display: none;
     position: absolute;
@@ -19,6 +27,7 @@
     flex-direction: column;
     padding: var(--spacing-md);
     box-shadow: var(--shadow-md);
+    z-index: 101;
   }
   
   .nav-list.active {
@@ -30,8 +39,34 @@
     margin-left: 0;
   }
   
+  .nav-link {
+    font-size: 0.9rem;
+  }
+  
   .mobile-menu-toggle {
     display: block;
+  }
+  
+  /* Show mobile-only elements on mobile */
+  .mobile-only {
+    display: block;
+  }
+  
+  /* Hide desktop login button on mobile */
+  .nav-cta.desktop-only {
+    display: none;
+  }
+  
+  /* Style for mobile login button inside nav-list */
+  .nav-item.mobile-only {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--color-border);
+  }
+  
+  .nav-item.mobile-only .btn {
+    width: 100%;
+    text-align: center;
   }
   
   /* Hero Section */

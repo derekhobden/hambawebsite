@@ -55,6 +55,11 @@
   box-sizing: border-box;
 }
 
+/* Hide mobile-only elements on desktop by default */
+.mobile-only {
+  display: none;
+}
+
 html {
   font-size: var(--font-size-base);
   scroll-behavior: smooth;
