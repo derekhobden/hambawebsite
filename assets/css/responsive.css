@@ -17,6 +17,12 @@
     font-size: 1.25rem;
   }
   
+  /* Social buttons in contact page - prevent horizontal overflow */
+  .social-links .btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+  }
+  
   .nav-list {
     display: none;
     position: absolute;
