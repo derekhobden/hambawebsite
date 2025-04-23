@@ -460,6 +460,17 @@ textarea.form-control {
   color: var(--color-primary);
 }
 
+.footer-disclaimer {
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-sm);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  line-height: 1.4;
+}
+
 .footer-bottom {
   margin-top: var(--spacing-xl);
   padding-top: var(--spacing-md);
