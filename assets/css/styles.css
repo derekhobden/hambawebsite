@@ -499,6 +499,14 @@ textarea.form-control {
   font-weight: 400;
 }
 
+/* ===== FAQ Styles ===== */
+.faq-heading {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-sm);
+}
+
 /* ===== Utility Classes ===== */
 .text-center {
   text-align: center;
