@@ -463,8 +463,6 @@ textarea.form-control {
 .footer-disclaimer {
   margin-top: var(--spacing-md);
   padding: var(--spacing-sm);
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
   font-size: 0.75rem;
   color: rgba(255, 255, 255, 0.7);
   text-align: center;
